@@ -537,6 +537,19 @@ var Camera = (function() {
 	};
 }());
 
+function myTimeoutFunction()
+{
+    	gameManager.addEntity(new Circle({
+		x: 100 + Math.random() * 4850,//(i%20) * space,
+		y: 100 + Math.random() * 4850,//Math.floor(i/20)*space,
+		color: ['red', 'blue', 'green', 'yellow', 'purple', 'brown', 'violet'][Math.floor(Math.random()*7)],
+		droplet: true
+	}));
+}
+
+myTimeoutFunction();
+setInterval(myTimeoutFunction, 1800000);
+
 var i = 0;
 var space = 70;
 for(i=0; i<400; i+=1) {
@@ -546,6 +559,7 @@ for(i=0; i<400; i+=1) {
 		color: ['red', 'blue', 'green', 'yellow', 'purple', 'brown', 'violet'][Math.floor(Math.random()*7)],
 		droplet: true
 	}));
+
 }
 
 gameManager.init('canvas1', 'canvas2', 'canvas3');
