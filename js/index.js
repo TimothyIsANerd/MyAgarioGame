@@ -324,7 +324,7 @@ var gameManager = (function() {
 		player = new Circle({
 			x: 50,
 			y: 50,
-			color: 'red',
+			color: '#7289da',
 			mass: 1000,
 			velX: 500,
 			velY:500
@@ -421,7 +421,7 @@ var gameManager = (function() {
 			}
 			
 			var entAttr = ent.getAttr();
-			ctxQuadtree.fillStyle = '#7289da';
+			ctxQuadtree.fillStyle = 'red';
 			ctxQuadtree.fillRect(entAttr.x/20, entAttr.y/20, 3, 3);
 		}
 	};
