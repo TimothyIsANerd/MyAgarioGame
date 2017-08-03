@@ -324,7 +324,7 @@ var gameManager = (function() {
 		player = new Circle({
 			x: 50,
 			y: 50,
-			color: '#7289da',
+			color: 'red',
 			mass: 1000,
 			velX: 500,
 			velY:500
