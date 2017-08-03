@@ -421,7 +421,7 @@ var gameManager = (function() {
 			}
 			
 			var entAttr = ent.getAttr();
-			ctxQuadtree.fillStyle = 'red';
+			ctxQuadtree.fillStyle = '#7289da';
 			ctxQuadtree.fillRect(entAttr.x/20, entAttr.y/20, 3, 3);
 		}
 	};
