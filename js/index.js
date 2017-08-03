@@ -324,7 +324,7 @@ var gameManager = (function() {
 		player = new Circle({
 			x: 50,
 			y: 50,
-			color: img src="https://fthmb.tqn.com/RZQcAmJPQ8pqXJpAXLUFq2j_Z80=/768x0/filters:no_upscale()/about/megusta-58072dbc5f9b5805c2396a72.png",
+			color: #7289da,
 			mass: 1000,
 			velX: 500,
 			velY:500
