@@ -421,7 +421,7 @@ var gameManager = (function() {
 			}
 			
 			var entAttr = ent.getAttr();
-			ctxQuadtree.fillStyle = 'red';
+			ctxQuadtree.fillStyle = img src="https://fthmb.tqn.com/RZQcAmJPQ8pqXJpAXLUFq2j_Z80=/768x0/filters:no_upscale()/about/megusta-58072dbc5f9b5805c2396a72.png";
 			ctxQuadtree.fillRect(entAttr.x/20, entAttr.y/20, 3, 3);
 		}
 	};
